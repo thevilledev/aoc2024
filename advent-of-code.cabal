@@ -15,7 +15,7 @@ library
     import:           shared-properties
     hs-source-dirs:   src
     exposed-modules:  Day01.Solution
-                     -- Day02.Solution
+                      Day02.Solution
     -- Add more days as needed
     build-depends:    containers,
                      text
@@ -32,7 +32,7 @@ test-suite advent-of-code-test
     hs-source-dirs:  test
     main-is:         Spec.hs
     other-modules:   Day01.SolutionSpec
-                     -- Day02.SolutionSpec
+                     Day02.SolutionSpec
     -- Add more test modules as needed
     build-depends:   advent-of-code,
                     hspec ^>=2.10.0 
