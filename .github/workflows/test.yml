@@ -17,4 +17,4 @@ jobs:
         uses: haskell-actions/setup@dd344bc1cec854a369df8814ce17ef337d6e6170 # v2.7.6
 
       - name: 'Test'
-        run: cabal test
+        run: cabal test --enable-tests
