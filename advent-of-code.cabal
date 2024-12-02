@@ -41,3 +41,4 @@ test-suite advent-of-code-test
     -- Add more test modules as needed
     build-depends:    advent-of-code
                     , hspec >= 2.7 && < 3
+    build-tool-depends: hspec-discover:hspec-discover
