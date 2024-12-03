@@ -20,6 +20,7 @@ library
     hs-source-dirs:   src
     exposed-modules:  Day01.Solution
                       Day02.Solution
+                      Day03.Solution
     -- Add more days as needed
     build-depends:    containers,
                      text
@@ -38,6 +39,7 @@ test-suite advent-of-code-test
     default-language: Haskell2010
     other-modules:    Day01.SolutionSpec
                       Day02.SolutionSpec
+                      Day03.SolutionSpec
     -- Add more test modules as needed
     build-depends:    advent-of-code
                     , hspec >= 2.7 && < 3
