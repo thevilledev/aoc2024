@@ -8,6 +8,7 @@ Solutions per day:
 - [Day 02](src/Day02/Solution.hs)
 - [Day 03](src/Day03/Solution.hs)
 - [Day 04](src/Day04/Solution.hs)
+- [Day 05](src/Day05/Solution.hs)
 
 Inputs are not stored in the repo.
 

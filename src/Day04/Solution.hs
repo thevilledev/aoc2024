@@ -4,7 +4,6 @@ module Day04.Solution
     , solveFuncPart2
     ) where
 
-import Data.List (transpose)
 import Data.Maybe (mapMaybe)
 
 solve :: IO ()
@@ -14,12 +13,11 @@ solve = do
     putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
 
 solveFuncPart1 :: String -> Int
-solveFuncPart1 input = (length $ findXMAS (parseGrid input)) `div` 2 -- I have no idea why this gives 2x the amount
+solveFuncPart1 input = length (findXMAS (parseGrid input)) `div` 2
 
 type Grid = [[Char]]
 type Position = (Int, Int)
 type Direction = (Int, Int)
-type Match = (Position, Direction, String)
 
 -- Parse the input string into a 2D grid
 parseGrid :: String -> Grid

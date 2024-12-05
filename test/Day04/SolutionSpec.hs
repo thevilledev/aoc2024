@@ -17,8 +17,8 @@ spec = do
     describe "Day 04 - Part 2" $ do
         it "solves part 1" $ do
             input <- readFile "inputs/Day04/simple2.txt"
-            solveFuncPart2 input `shouldBe` 0  -- Replace with expected result
+            solveFuncPart2 input `shouldBe` 9  -- Replace with expected result
 
         it "solves part 2" $ do
             input <- readFile "inputs/Day04/real.txt"
-            solveFuncPart2 input `shouldBe` 0  -- Replace with expected result
+            solveFuncPart2 input `shouldBe` 1880  -- Replace with expected result
