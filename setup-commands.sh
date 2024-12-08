@@ -20,6 +20,8 @@ mkdir -p "inputs/Day$DAY"
 cat > "src/Day$DAY/Solution.hs" << EOF
 module Day$DAY.Solution
     ( solve
+      solveFuncPart1
+      solveFuncPart2
     ) where
 
 solve :: IO ()
@@ -51,14 +53,14 @@ spec = do
 
         it "real input" \$ do
             input <- readFile "inputs/Day$DAY/real.txt"
-            solveFuncPart2 input \`shouldBe\` 0  -- Replace with expected result
-
-    describe "Day $DAY - Part 2" \$ do
-        it "solves part 1" \$ do
-            input <- readFile "inputs/Day$DAY/simple.txt"
             solveFuncPart1 input \`shouldBe\` 0  -- Replace with expected result
 
-        it "solves part 2" \$ do
+    describe "Day $DAY - Part 2" \$ do
+        it "simple input" \$ do
+            input <- readFile "inputs/Day$DAY/simple.txt"
+            solveFuncPart2 input \`shouldBe\` 0  -- Replace with expected result
+
+        it "real input" \$ do
             input <- readFile "inputs/Day$DAY/real.txt"
             solveFuncPart2 input \`shouldBe\` 0  -- Replace with expected result
 EOF
