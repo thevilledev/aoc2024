@@ -10,6 +10,7 @@ import qualified Day05.Solution as Day05
 import qualified Day08.Solution as Day08
 import qualified Day09.Solution as Day09
 import qualified Day10.Solution as Day10
+import qualified Day11.Solution as Day11
 -- Import more days as you add them
 
 main :: IO ()
@@ -36,3 +37,5 @@ main = do
     Day09.solve
     putStrLn "* Day 10:"
     Day10.solve
+    putStrLn "* Day 11:"
+    Day11.solve

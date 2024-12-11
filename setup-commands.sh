@@ -20,8 +20,8 @@ mkdir -p "inputs/Day$DAY"
 cat > "src/Day$DAY/Solution.hs" << EOF
 module Day$DAY.Solution
     ( solve
-      solveFuncPart1
-      solveFuncPart2
+    ,  solveFuncPart1
+    ,  solveFuncPart2
     ) where
 
 solve :: IO ()

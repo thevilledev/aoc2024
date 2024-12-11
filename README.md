@@ -13,8 +13,12 @@ Solutions per day:
 - [Day 07](src/Day07/Solution.hs)
 - [Day 08](src/Day08/Solution.hs)
 - [Day 09: Part 1](src/Day09/Solution.hs) + [Day 09: Part 2](src/Day09/part2.py)
+- [Day 10](src/Day10/Solution.hs)
+- [Day 11: Part 1](src/Day11/Solution.hs) + [Day 11: Part 2](src/Day11/part2.py)
 
 Inputs are not stored in the repo.
+
+Some Python solutions included due to lack of time to implement them properly in Haskell.
 
 ## Project structure
 

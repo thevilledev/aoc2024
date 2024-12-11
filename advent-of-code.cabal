@@ -28,6 +28,7 @@ library
                       Day08.Solution
                       Day09.Solution
                       Day10.Solution
+                      Day11.Solution
     -- Add more days as needed
     build-depends:    containers,
                      text
@@ -54,6 +55,7 @@ test-suite advent-of-code-test
                       Day08.SolutionSpec
                       Day09.SolutionSpec
                       Day10.SolutionSpec
+                      Day11.SolutionSpec
     -- Add more test modules as needed
     build-depends:    advent-of-code
                     , hspec >= 2.7 && < 3
