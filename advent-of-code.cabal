@@ -14,6 +14,7 @@ common shared-properties
     default-language: Haskell2010
     ghc-options:     -Wall
     build-depends:   base >=4.17.0.0 && <5
+                    , array
 
 library
     import:           shared-properties
@@ -29,6 +30,7 @@ library
                       Day09.Solution
                       Day10.Solution
                       Day11.Solution
+                      Day12.Solution
     -- Add more days as needed
     build-depends:    containers,
                      text
@@ -56,6 +58,7 @@ test-suite advent-of-code-test
                       Day09.SolutionSpec
                       Day10.SolutionSpec
                       Day11.SolutionSpec
+                      Day12.SolutionSpec
     -- Add more test modules as needed
     build-depends:    advent-of-code
                     , hspec >= 2.7 && < 3
