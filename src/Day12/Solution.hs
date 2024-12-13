@@ -27,17 +27,6 @@ solveFuncPart1 input = sum $ map calculateRegionPrice regions
     grid = parseInput input
     regions = findRegions grid
 
--- solveFuncPart2 :: String -> Int
--- solveFuncPart2 input = sum $ map (calculateRegionPricePart2 grid) regions
---   where
---     grid = parseInput input
---    regions = findRegions grid
-
--- calculateRegionPricePartx :: Grid -> Region -> Int
--- calculateRegionPricePartx grid region = area * sides
---   where
---     area = Set.size region
-    -- sides = countDistinctSides grid region
 
 parseInput :: String -> Grid
 parseInput input = array gridBounds $ concat 
@@ -99,13 +88,13 @@ countDistinctSides grid region =
         positions = Set.toList region
         byRow = Map.fromListWith Set.union [(r, Set.singleton c) | (r,c) <- positions]
         byCol = Map.fromListWith Set.union [(c, Set.singleton r) | (r,c) <- positions]
-        
+
         -- Count breaks in each row and column
         rowSides = sum $ Map.mapWithKey countRowSides byRow
         colSides = sum $ Map.mapWithKey countColSides byCol
-        
+
         totalSides = rowSides + colSides
-        
+
         debugStr = unlines
             [ "Region " ++ [char] ++ ":"
             , "  Row sides: " ++ show rowSides
