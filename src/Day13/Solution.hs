@@ -5,10 +5,7 @@ module Day13.Solution
 
 import Data.List (minimumBy)
 import Data.Ord (comparing)
-import Data.Function (on)
 import Data.List.Split (splitOn)
-import Control.Monad (guard)
-import Debug.Trace
 
 solve :: IO ()
 solve = do
