@@ -18,8 +18,8 @@ solve :: IO ()
 solve = do
     input <- readFile "inputs/Day12/real.txt"
     putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
-    input' <- readFile "inputs/Day12/simple.txt"
-    putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input')
+    --input' <- readFile "inputs/Day12/simple.txt"
+    --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input')
 
 solveFuncPart1 :: String -> Int
 solveFuncPart1 input = sum $ map calculateRegionPrice regions

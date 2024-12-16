@@ -8,15 +8,15 @@ import Debug.Trace (trace)
 
 solve :: IO ()
 solve = do
-    input <- readFile "inputs/Day15/small.txt"
+    --input <- readFile "inputs/Day15/small.txt"
     --putStrLn $ "\t* Part 1 (small): " ++ show (solveFuncPart1 input)
-    input' <- readFile "inputs/Day15/large.txt"
+    --input' <- readFile "inputs/Day15/large.txt"
     --putStrLn $ "\t* Part 1 (large): " ++ show (solveFuncPart1 input')
     input'' <- readFile "inputs/Day15/real.txt"
-    --putStrLn $ "\t* Part 1 (real): " ++ show (solveFuncPart1 input'')
+    putStrLn $ "\t* Part 1 (real): " ++ show (solveFuncPart1 input'')
 
     --putStrLn $ "\t* Part 2 (small): " ++ show (solveFuncPart2 input)
-    putStrLn $ "\t* Part 2 (large): " ++ show (solveFuncPart2 input')
+    --putStrLn $ "\t* Part 2 (large): " ++ show (solveFuncPart2 input')
     --putStrLn $ "\t* Part 2 (real): " ++ show (solveFuncPart2 input'')
 
 solveFuncPart2 :: String -> Int
