@@ -18,6 +18,7 @@ solve :: IO ()
 solve = do
     input <- readFile "inputs/Day12/real.txt"
     putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
+    putStrLn "\t* Part 2: <run the python script>"
     --input' <- readFile "inputs/Day12/simple.txt"
     --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input')
 

@@ -25,8 +25,8 @@ type Maze = Map.Map Position Char
 
 solve :: IO ()
 solve = do
-    putStrLn "\t* Part 1: uncomment to run"
-    putStrLn "\t* Part 2: uncomment to run"
+    putStrLn "\t* Part 1: <uncomment to run>"
+    putStrLn "\t* Part 2: <uncomment to run>"
     --input <- readFile "inputs/Day16/real.txt"
     ---putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
     --part2Result <- solveFuncPart2 input

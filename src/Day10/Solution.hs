@@ -9,9 +9,9 @@ import Data.List (nub)
 solve :: IO ()
 solve = do
     input <- readFile "inputs/Day10/real.txt"
-    input' <- readFile "inputs/Day10/simple.txt"
-    putStrLn $ "\t* Part 1 (simple): " ++ show (solveFuncPart1 input')
-    putStrLn $ "\t* Part 1 (real): " ++ show (solveFuncPart1 input)
+    --input' <- readFile "inputs/Day10/simple.txt"
+    --putStrLn $ "\t* Part 1 (simple): " ++ show (solveFuncPart1 input')
+    putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
     putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
 
 solveFuncPart1 :: String -> Int

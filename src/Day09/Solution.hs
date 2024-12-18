@@ -12,7 +12,7 @@ solve = do
     --input <- readFile "inputs/Day09/simple.txt"
     --putStrLn $ "\t* Part simple: " ++ show (solveFuncPart1 input)
     --input' <- readFile "inputs/Day09/simple.txt"
-    putStrLn "\t* Part 1: <takes too long>"
+    putStrLn "\t* Part 1: <uncomment to run>"
     putStrLn "\t* Part 2: <run the python script>"
     --putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input')
     --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input')

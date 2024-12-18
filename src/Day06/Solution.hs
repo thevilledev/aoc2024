@@ -8,9 +8,11 @@ import qualified Data.Set as Set
 
 solve :: IO ()
 solve = do
-    input <- readFile "inputs/Day06/real.txt"
-    putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
-    putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
+    --input <- readFile "inputs/Day06/real.txt"
+    putStrLn $ "\t* Part 1: <uncomment to run>"
+    putStrLn $ "\t* Part 2: <uncomment to run>"
+    --putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
+    --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
 
 solveFuncPart1 :: String -> Int
 solveFuncPart1 input = moveAndCount grid startPos North Set.empty

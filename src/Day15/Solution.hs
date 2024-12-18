@@ -13,7 +13,8 @@ solve = do
     --input' <- readFile "inputs/Day15/large.txt"
     --putStrLn $ "\t* Part 1 (large): " ++ show (solveFuncPart1 input')
     input'' <- readFile "inputs/Day15/real.txt"
-    putStrLn $ "\t* Part 1 (real): " ++ show (solveFuncPart1 input'')
+    putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input'')
+    putStrLn "\t* Part 2: <run the python script>"
 
     --putStrLn $ "\t* Part 2 (small): " ++ show (solveFuncPart2 input)
     --putStrLn $ "\t* Part 2 (large): " ++ show (solveFuncPart2 input')

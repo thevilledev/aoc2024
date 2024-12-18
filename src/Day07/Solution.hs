@@ -6,9 +6,11 @@ module Day07.Solution
 
 solve :: IO ()
 solve = do
-    input <- readFile "inputs/Day07/real.txt"
-    putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
-    putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
+    putStrLn $ "\t* Part 1: <uncomment to run>"
+    putStrLn $ "\t* Part 2: <uncomment to run>"
+    --input <- readFile "inputs/Day07/real.txt"
+    --putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
+    --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
 
 solveFuncPart1 :: String -> Int
 solveFuncPart1 input = sum $ map testValue validEquations

@@ -55,7 +55,7 @@ solve :: IO ()
 solve = do
     input <- readFile "inputs/Day14/real.txt"
     putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
-    --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
+    putStrLn "\t* Part 2: <run the python script>"
 
 solveFuncPart1 :: String -> Int
 solveFuncPart1 input = 

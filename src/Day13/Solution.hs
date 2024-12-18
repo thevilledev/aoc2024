@@ -12,6 +12,7 @@ solve = do
     input <- readFile "inputs/Day13/real.txt"
     putStrLn $ "\t* Part 1: " ++ show (solveFuncPart1 input)
     --putStrLn $ "\t* Part 2: " ++ show (solveFuncPart2 input)
+    putStrLn "\t* Part 2: <run the python script>"
 
 solveFuncPart1 :: String -> Integer
 solveFuncPart1 input = sum $ map solveMachine $ parseInput input
