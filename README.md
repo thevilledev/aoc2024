@@ -1,6 +1,6 @@
 # Advent of Code 2024
 
-Haskell project for Advent of Code 2024.
+Haskell project for Advent of Code 2024. Some Python solutions included due to lack of time to implement them properly in Haskell.
 
 Solutions per day:
 
@@ -24,10 +24,9 @@ Solutions per day:
 - [Day 18](src/Day18/Solution.hs)
 - [Day 19](src/Day19/Solution.hs)
 - [Day 20](src/Day19/solution.py)
+- [Day 21](src/Day21/solution.py)
 
 Inputs are not stored in the repo.
-
-Some Python solutions included due to lack of time to implement them properly in Haskell.
 
 ## Project structure
 
