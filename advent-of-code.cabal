@@ -43,9 +43,11 @@ library
                       Day20.Solution
                       --Day21.Solution
                       Day23.Solution
+                      Day24.Solution
     -- Add more days as needed
     build-depends:    containers,
-                     text
+                     text,
+                     random
 
 executable advent-of-code
     import:           shared-properties
@@ -82,6 +84,7 @@ test-suite advent-of-code-test
                       --Day21.SolutionSpec
                       --Day22.SolutionSpec
                       Day23.SolutionSpec
+                      Day24.SolutionSpec
     -- Add more test modules as needed
     build-depends:    advent-of-code
                     , hspec >= 2.7 && < 3
