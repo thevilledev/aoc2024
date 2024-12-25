@@ -28,6 +28,7 @@ Solutions per day:
 - [Day 22](src/Day22/solution.py)
 - [Day 23](src/Day23/Solution.hs)
 - [Day 24: Part 1](src/Day24/Solution.hs) + [Day 24: Part 2](src/Day24/part2.py)
+- [Day 25](src/Day25/Solution.hs)
 
 Inputs are not stored in the repo.
 
